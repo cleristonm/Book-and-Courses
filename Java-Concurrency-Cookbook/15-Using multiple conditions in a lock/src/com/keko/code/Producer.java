@@ -7,7 +7,6 @@ public class Producer implements Runnable {
 	
 	
 	public Producer(FileMock mock, Buffer buffer) {
-		super();
 		this.mock = mock;
 		this.buffer = buffer;
 	}
