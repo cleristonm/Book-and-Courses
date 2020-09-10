@@ -13,7 +13,13 @@ public class Main {
 
 		MatrixMock mock = new MatrixMock(ROWS, NUMBERS, SEARCH);
 		Results results = new Results(ROWS);
-		Grouper grouper = new Grouper(results);
+		/*
+		 * One interesting advantage of the CyclicBarrier class is that you can pass an additional
+		 * Runnable object as an initialization parameter, and the CyclicBarrier class executes this
+		 * object as a thread when all the threads arrive at the common point.
+		 * 
+		 */
+		Grouper grouper = new Grouper(results);		
 		CyclicBarrier barrier = new CyclicBarrier(PARTICIPANTS, grouper);
 
 		Searcher searchers[] = new Searcher[PARTICIPANTS];

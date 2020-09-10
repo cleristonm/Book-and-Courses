@@ -38,7 +38,12 @@ public class Searcher implements Runnable {
 		System.out.printf("%s: Lines processed.\n", Thread.currentThread().getName());
 
 		try {
+			/*
+			 * After all Searcher threads reach this point,
+			 * all of them will be released
+			 */			
 			barrier.await();
+			
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		} catch (BrokenBarrierException e) {
