@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>C01E06-Creating and running a daemon thread</name>
+	<name>C01E09-Grouping threads and processing uncontrolled exceptions in a group of threads</name>
 	<comment></comment>
 	<projects>
 	</projects>

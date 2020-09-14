@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>C01E06-Creating and running a daemon thread</name>
+	<name>C03E04-Running concurrent-phased tasks</name>
 	<comment></comment>
 	<projects>
 	</projects>

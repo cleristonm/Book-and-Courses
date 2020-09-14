@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>C01E06-Creating and running a daemon thread</name>
+	<name>C02E04-Synchronizing data access with read write Locks</name>
 	<comment></comment>
 	<projects>
 	</projects>
